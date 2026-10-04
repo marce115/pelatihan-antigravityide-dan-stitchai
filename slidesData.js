@@ -25,19 +25,6 @@ window.SLIDES_DATA = [
   },
   {
     id: 2,
-    title: "Can AI Help You Build a Website?",
-    subtitle: "Opening & Ice Breaking",
-    category: "Apersepsi",
-    speakerNotes: "Gunakan tombol interaktif di slide untuk menayangkan pertanyaan satu demi satu. Minta siswa mengangkat tangan untuk merangsang diskusi dan menguji pemahaman awal mereka tentang coding & AI.",
-    type: "icebreaker",
-    questions: [
-      { id: 1, icon: "💻", text: "Siapa di sini yang sudah pernah membuat website dari awal menggunakan HTML, CSS, & JS?" },
-      { id: 2, icon: "🤖", text: "Siapa yang pernah menggunakan AI (seperti ChatGPT, Claude, atau Copilot) untuk membantu bikin kode?" },
-      { id: 3, icon: "⏱️", text: "Berapa lama biasanya waktu yang kalian butuhkan untuk mendesain dan ngoding website portofolio dari nol?" }
-    ]
-  },
-  {
-    id: 3,
     title: "Learning Roadmap",
     subtitle: "Peta Perjalanan Pelatihan Hari Ini",
     category: "Agenda",
@@ -54,7 +41,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 4,
+    id: 3,
     title: "Mengenal Antigravity IDE",
     subtitle: "Lingkungan Pengembangan Modern dengan AI Agent",
     category: "Pengenalan Tools",
@@ -68,7 +55,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 5,
+    id: 4,
     title: "Cara Instalasi Antigravity IDE",
     subtitle: "Langkah Praktis Menyiapkan Editor di Perangkat Anda",
     category: "Panduan Instalasi",
@@ -86,7 +73,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 6,
+    id: 5,
     title: "Mengenal Workspace Antigravity",
     subtitle: "Simulasi Antarmuka Editor & Penjelasan Komponen",
     category: "Eksplorasi IDE",
@@ -100,7 +87,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 7,
+    id: 6,
     title: "Mengenal Stitch AI",
     subtitle: "Alat bantu visual untuk menghasilkan rancangan UI dari Teks",
     category: "Pengenalan Tools",
@@ -116,7 +103,7 @@ window.SLIDES_DATA = [
     mockupElements: ["Header Nav", "Hero Title & Tagline", "Profile Card", "Skills Grid", "Project Showcase"]
   },
   {
-    id: 8,
+    id: 7,
     title: "Workflow Stitch AI",
     subtitle: "Alur Kerja Dari Ide Hingga Menjadi Website Utuh",
     category: "Metodologi Kerja",
@@ -132,7 +119,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 9,
+    id: 8,
     title: "Teknik Prompting dengan Formula CROC",
     subtitle: "Rahasia Membuat Instruksi AI Presisi dan Efektif",
     category: "Prompt Engineering",
@@ -171,7 +158,7 @@ window.SLIDES_DATA = [
     combinedPrompt: "Saya siswa SMK jurusan PPLG yang ingin membuat website portofolio untuk melamar PKL. Bertindaklah sebagai senior frontend developer dan UI/UX designer. Buat website portofolio dua kolom yang berisi profil, keahlian, minimal dua proyek, dan informasi kontak. Gunakan dark mode dengan aksen indigo, HTML, CSS, dan JavaScript, serta pastikan desain responsif di smartphone."
   },
   {
-    id: 10,
+    id: 9,
     title: "Prompt Buruk vs Prompt Baik",
     subtitle: "Studi Kasus Perbandingan Instruksi Teks",
     category: "Studi Kasus Prompt",
@@ -187,7 +174,7 @@ window.SLIDES_DATA = [
     }
   },
   {
-    id: 11,
+    id: 10,
     title: "Apa Itu MCP?",
     subtitle: "Model Context Protocol — Jembatan Penghubung AI & Tools",
     category: "Konsep Lanjutan",
@@ -207,7 +194,7 @@ window.SLIDES_DATA = [
     note: "Catatan Kritis: MCP adalah protokol standar. Integrasi dengan tools eksternal membutuhkan konfigurasi server MCP yang sah dan terverifikasi."
   },
   {
-    id: 12,
+    id: 11,
     title: "Menghubungkan Stitch AI dan Antigravity",
     subtitle: "Dua Pendekatan Integrasi: Direct Workflow vs MCP Workflow",
     category: "Integrasi Workflow",
@@ -243,7 +230,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 13,
+    id: 12,
     title: "Praktik Langsung Membuat Portofolio",
     subtitle: "Checklist Kelengkapan Praktik Workshop Sesi Ini",
     category: "Sesi Praktik",
@@ -260,7 +247,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 14,
+    id: 13,
     title: "Prompt untuk AI Agent",
     subtitle: "Contoh Instruksi Siap Pakai di Antigravity IDE Panel",
     category: "Prompt Templating",
@@ -280,7 +267,7 @@ window.SLIDES_DATA = [
 </section>`
   },
   {
-    id: 15,
+    id: 14,
     title: "Debugging dan Penyempurnaan",
     subtitle: "Langkah Penanganan Masalah & Kode Error Saat Coding",
     category: "Debugging",
@@ -310,7 +297,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 16,
+    id: 15,
     title: "Evaluasi dan Tantangan",
     subtitle: "Kuis Interaktif 5 Pertanyaan Seputar Materi Workshop",
     category: "Kuis Evaluasi",
@@ -380,7 +367,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 17,
+    id: 16,
     title: "Tugas Mandiri & Rubrik Penilaian",
     subtitle: "Tantangan Pembuatan Website Portofolio Personal SMK",
     category: "Penugasan",
@@ -402,7 +389,7 @@ window.SLIDES_DATA = [
     ]
   },
   {
-    id: 18,
+    id: 17,
     title: "Closing",
     subtitle: "Your Ideas. Your Prompts. Your Website.",
     category: "Penutup",
