@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Web Development Workshop: Stitch AI × Antigravity IDE</title>
+  <meta name="description" content="Website Edukasi Interaktif Pelatihan Web Development Berbasis AI untuk Siswa SMK PPLG SMKN 2 Surakarta.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CRT Pixel Scanlines Effect -->
+  <div class="crt-scanlines"></div>
+
+  <!-- Ambient Animated Background -->
+  <div class="bg-ambient">
+    <div class="bg-grid"></div>
+    <div class="glow-blob glow-1"></div>
+    <div class="glow-blob glow-2"></div>
+  </div>
+
+  <!-- Main Application Wrapper -->
+  <div id="app">
+    <!-- Top Navigation Header -->
+    <header class="top-bar">
+      <div class="brand-section">
+        <span class="brand-badge">Stitch × Antigravity</span>
+        <span class="brand-title">AI-Powered Web Development Workshop</span>
+      </div>
+      
+      <div class="header-actions">
+        <button class="btn-header" id="btnMenuToggle" title="Buka Daftar Slide (M)">
+          <span>☰</span> Daftar Slide
+        </button>
+        <button class="btn-header" id="btnPresenterToggle" title="Mode Pembicara & Catatan (P)">
+          <span>🎙️</span> Mode Pembicara
+        </button>
+        <button class="btn-header" id="btnFullscreenToggle" title="Layar Penuh (F)">
+          <span>⛶</span> Fullscreen
+        </button>
+      </div>
+    </header>
+
+    <!-- Presentation Stage Viewport -->
+    <main class="presentation-viewport">
+      <div class="slide-stage" id="slideStage">
+        <div class="slide-content" id="slideContent">
+          <!-- Dynamic slide content injected via JavaScript -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Bottom Navigation Dock -->
+    <footer class="bottom-dock">
+      <div class="nav-controls">
+        <button class="btn-nav" id="btnPrev" title="Slide Sebelumnya (Arrow Left)">
+          ←
+        </button>
+        <div class="slide-indicator">
+          <span id="currentSlideNum">01</span> / <span id="totalSlidesNum">18</span>
+        </div>
+        <button class="btn-nav" id="btnNext" title="Slide Selanjutnya (Arrow Right / Space)">
+          →
+        </button>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressBarFill"></div>
+        </div>
+      </div>
+
+      <div class="keyboard-hints">
+        <span class="key-pill">← Prev</span>
+        <span class="key-pill">→ Next</span>
+        <span class="key-pill">Space Next</span>
+        <span class="key-pill">F Fullscreen</span>
+        <span class="key-pill">P Presenter</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Side Drawer (Daftar Slide Menu) -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="drawer-sidebar" id="drawerSidebar">
+    <div class="drawer-header">
+      <h3 class="drawer-title">Daftar Slide Presentasi</h3>
+      <button class="btn-close-drawer" id="drawerCloseBtn">✕</button>
+    </div>
+    <div class="drawer-slide-list" id="drawerSlideList">
+      <!-- Injected dynamically -->
+    </div>
+  </aside>
+
+  <!-- Presenter Mode Floating Panel -->
+  <aside class="presenter-panel" id="presenterPanel">
+    <div class="presenter-header">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="font-size:1.2rem;">🎙️</span>
+        <span style="font-weight:700; font-size:0.95rem; color:#fff;">Catatan Pembicara</span>
+      </div>
+      <div class="timer-box" id="presenterTimer">00:00</div>
+    </div>
+    
+    <div class="notes-body" id="presenterNotesBody">
+      <!-- Presenter notes injected dynamically -->
+    </div>
+
+    <div style="border-top:1px solid var(--border-glass); padding-top:10px; font-size:0.8rem; color:var(--text-muted);">
+      <strong>Slide Berikutnya:</strong> <span id="nextSlideTitle" style="color:var(--accent-cyan);"></span>
+    </div>
+  </aside>
+
+  <!-- Application Logic Scripts -->
+  <script src="slidesData.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
